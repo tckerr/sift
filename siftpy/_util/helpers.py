@@ -1,17 +1,21 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
+from siftpy._util.exceptions import ContextPropertyException
 
 def merge(list_list):
     merged = [item for sublist in list_list for item in sublist]
     return list(set(merged))
+
 
 def flatten(nested_list):
     while len(nested_list) > 0 and nested_list[0].__class__ is list:
         nested_list = merge(nested_list)
     return nested_list
 
+
 def filter_list(filter_function, item_list):
     results = filter(lambda x: filter_function(x), item_list)
     return list(results)
+
 
 def getprop(obj, str_accessor):
     try:
@@ -20,8 +24,8 @@ def getprop(obj, str_accessor):
             obj = getattr(obj, prop)
         return obj
     except:
-        print(obj)
-        raise Exception("A context value did not exist. Check your context provider and your filters. Key error: {}".format(str_accessor))
+        raise ContextPropertyException("A context value did not exist. Check your context provider and your filters. Key error: {}".format(str_accessor))
+
 
 class DictWrapper(dict):
 

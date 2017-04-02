@@ -28,7 +28,7 @@ class FilterProvider(object):
     def __init_operator_fns(self):
         self.operator_functions = {
             self.config.SiftFilterOperator.LessThanOrEqualTo:       lambda x, y: x <= y,
-            self.config. SiftFilterOperator.LessThan:               lambda x, y: x <  y,
+            self.config.SiftFilterOperator.LessThan:                lambda x, y: x <  y,
             self.config.SiftFilterOperator.GreaterThanOrEqualTo:    lambda x, y: x >= y,
             self.config.SiftFilterOperator.GreaterThan:             lambda x, y: x >  y,
             self.config.SiftFilterOperator.EqualTo:                 lambda x, y: x == y,
