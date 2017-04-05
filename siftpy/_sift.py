@@ -2,55 +2,109 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 from siftpy._util.helpers import (merge, flatten, filter_list) 
 from siftpy._util.printers import SiftPrinter
-
-class SiftResult(object):
-    def __init__(self, data):
-        self.data = data
+from siftpy._util.exceptions import InvalidChoiceException, ValidationException
 
 
-class Sift(object): 
+class Choice(object):
+    def __init__(self, options, sift):
+        self.__sift = sift
+        self.pending = True
+        self.question = self.__build_question(options)
+        
+    def __build_question(self, choices):
+        return {str(i): choice for i, choice in enumerate(choices)}
+
+    def choose(self, i):
+        index = str(i)
+        if index not in self.question:
+            raise InvalidChoiceException("Answer '{}'' is not present in the list of options".format(index))
+        answer = [self.question[index]]
+        self.pending = False
+        self.__sift.provide_answer(answer)
+
+class ContextObjectListProvider(object):
+    def next(self, context_provider, context_source):
+        val = getattr(context_provider.context, context_source)
+        if val is None:
+            raise StopIteration()
+        try:
+            iterator = iter(val)            
+        except:
+            iterator = [item]
+        for item in iterator:
+            yield item
+
+    def list(self, context_provider, context_source):
+        return list(self.next(context_provider, context_source))
+
+
+class Sift(object):    
 
     def __init__(self, config):
         self.config = config
         self.__printer = self.config.SiftPrinter(self.config)
+        self.__choice_results = None
+        self.__context_object_list_provider = ContextObjectListProvider()
 
     @property
-    def __is_leaf(self):
-        return len(self.sifts) == 0
+    def current_choice(self):
+        while(True):
+            choice = self.get_choice()
+            if not choice:
+                break
+            yield choice
+        raise StopIteration()
 
-    @property
-    def __is_root(self):
-        return self.parent is None
+    def get_choice(self):       
+
+        for self in self.sifts:
+            choice = self.get_choice()
+            if choice:
+                return choice
+
+        if self.is_choice:
+            options = self.results()
+            if options:
+                return Choice(options, self)
+
+    def provide_answer(self, results):
+        if not self.is_choice:
+            raise Exception("You cannot 'answer' a result sift")
+        self.__choice_results = results
+        self.is_choice = False
 
     def print(self):
         self.__printer.print(self)
 
-    def evaluate(self):
-        '''Returns an array of matching object instance sets'''        
-        branch_results = self.__get_branch_results() 
-        if self.merge_children:
-            flattened_results = flatten(branch_results)
-            return SiftResult(self.__filter_and_convert(flattened_results))
-        else:
-            return SiftResult(list(map(self.__filter_and_convert, branch_results)))
+    def results(self):
+        if self.__choice_results is not None:
+            return self.__choice_results
 
-    def __get_branch_results(self):
+        return self.__filter_and_convert(self.__branch_results)
+
+    @property
+    def __branch_results(self):
         if self.__is_leaf:
-            return self.__get_leaf_results()
-        return self.__evaluate_child_sifts() 
+            return self.__leaf_results
+        return flatten(self.__child_sift_results)
 
-    def __get_leaf_results(self):
-        assert self.__is_root or self.merge_children
-        return getattr(self.context_provider.context, self.context_source)
+    @property
+    def __is_leaf(self):
+        return len(self.sifts) == 0    
 
-    def __evaluate_child_sifts(self):
-        return [sift.evaluate().data for sift in self.sifts]
+    @property
+    def __leaf_results(self):
+        return self.__context_object_list_provider.list(self.context_provider, self.context_source)
+
+    @property
+    def __child_sift_results(self):
+        return [sift.results() for sift in self.sifts]
 
     def __filter_and_convert(self, result_set):
         filtered = self.__filter(result_set)
         if self.returning_object_property is not None:
             return self.__convert(filtered)
-        return (filtered)
+        return filtered
 
     def __filter(self, object_list):
         for filter_fn in self.filters:

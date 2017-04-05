@@ -22,7 +22,7 @@ class SiftFilterKey(object):
 
 class SiftPropertyKey(object):
     Id = "id"
-    MergeChildren = "merge_children"
+    IsChoice = "is_choice"
     ReturningObjectProperty = "returning_object_property"
     Count = "count"
     ContextSource = "context_source"

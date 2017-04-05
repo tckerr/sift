@@ -15,6 +15,9 @@ class Student(object):
         self.popularity = data["popularity"]
         self.grades = data["grades"]
 
+    def __repr__(self):
+        return "[Student Object ID: {}]".format(str(self.id))
+
 class Seat(object):
   
     def __init__(self, data):
@@ -22,6 +25,9 @@ class Seat(object):
         self.column = data["column"]
         self.row = data["row"]
         self.student = None
+
+    def __repr__(self):
+        return "[Seat Object ID: {}]".format(str(self.id))
 
 
 class FinalsWeekContextProvider(ContextProvider):
@@ -103,8 +109,8 @@ def print_results(results, context_provider):
         else:
             print_component(component)
     
-strategy_json_path = os.path.dirname(__file__) + 'fixtures/filter_basic.json'        
-seed_json_path = os.path.dirname(__file__) + 'fixtures/student_seed.json'        
+strategy_json_path = os.path.dirname(__file__) + 'fixtures/choices.json'        
+seed_json_path = os.path.dirname(__file__) + 'fixtures/student_seed_2.json'        
 strategy_data = JsonLoader().load(strategy_json_path)      
 seed_data = JsonLoader().load(seed_json_path)      
 
@@ -112,5 +118,10 @@ context_provider = FinalsWeekContextProvider(seed_data)
 sift = SiftBuilder().build(strategy_data, context_provider)
 sift.print()
 
-results = sift.evaluate().data
-print_results(results, context_provider)
+#results = sift.evaluate().data
+#print_results(results, context_provider)
+from pprint import pprint
+for choice in sift.current_choice:
+    pprint(choice.question)
+    choice.choose(input())
+print(sift.results())

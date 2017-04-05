@@ -20,7 +20,7 @@ class SiftBuilder(object):
     def __init_fields(self, dictionary, context_provider, filter_provider, sift):
         self.__init_source(dictionary, sift)
         self.__init_id(dictionary, sift)
-        self.__init_merge_children(dictionary, sift)
+        self.__init_is_choice(dictionary, sift)
         self.__init_context_source(dictionary, sift)
         self.__init_returning_object_property( dictionary, sift)
         self.__init_count(dictionary, sift)
@@ -33,8 +33,8 @@ class SiftBuilder(object):
     def __init_id(self, dictionary, sift):
         sift.id = dictionary.get(self.config.SiftPropertyKey.Id, None)
 
-    def __init_merge_children(self, dictionary, sift):
-        sift.merge_children = dictionary[self.config.SiftPropertyKey.MergeChildren]
+    def __init_is_choice(self, dictionary, sift):
+        sift.is_choice = dictionary[self.config.SiftPropertyKey.IsChoice]
 
     def __init_context_source(self, dictionary, sift):
         sift.context_source = dictionary.get(self.config.SiftPropertyKey.ContextSource, None)

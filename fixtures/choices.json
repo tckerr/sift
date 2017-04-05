@@ -1,6 +1,6 @@
 {
     "id": 0,
-    "merge_children": false,
+    "is_choice": true,
     "returning_object_property": null,
     "count": null,
     "filters": [
@@ -13,7 +13,8 @@
     ],
     "sifts": [
         {
-            "merge_children": false,
+            "id": 1,
+            "is_choice": true,
             "context_source": "students",            
             "returning_object_property": null,
             "count": null,
@@ -22,18 +23,13 @@
                     "filter_type": "context",
                     "property": "grades",
                     "operator": ">",
-                    "comparison_value": "requestor.student.grades"
-                },
-                {
-                    "filter_type": "context",
-                    "property": "grades",
-                    "operator": "<=",
                     "comparison_value": "requestor.student.grades"
                 }
             ]
         },
         {
-            "merge_children": false,
+            "id": 2,
+            "is_choice": true,
             "context_source": "students",            
             "returning_object_property": null,
             "count": null,
@@ -42,12 +38,6 @@
                     "filter_type": "context",
                     "property": "popularity",
                     "operator": ">",
-                    "comparison_value": "requestor.student.popularity"
-                },
-                {
-                    "filter_type": "context",
-                    "property": "popularity",
-                    "operator": "<=",
                     "comparison_value": "requestor.student.popularity"
                 }
             ]

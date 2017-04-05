@@ -8,7 +8,7 @@ class SiftPrinter(object):
         self.config = config
         self.fields = (
             self.config.SiftPropertyKey.Id,
-            self.config.SiftPropertyKey.MergeChildren,
+            self.config.SiftPropertyKey.IsChoice,
             self.config.SiftPropertyKey.ReturningObjectProperty,
             self.config.SiftPropertyKey.Count
         )
