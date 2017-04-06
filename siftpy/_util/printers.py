@@ -45,3 +45,31 @@ class SiftPrinter(object):
 
     def __get_indent(self, padding):
         return "".join([" " for _ in range(0, padding)])
+
+class SiftTranslator(object):
+
+    def __init__(self, config):
+        self.config = config
+
+    def translate(self, sift):
+        base_text = "Either" if sift.is_choice else "All items from"
+
+        filter_descriptions = [self.__context_filter_description(filter) for filter in sift.original_source[self.config.SiftPropertyKey.Filters]]
+        filter_text = "where " + ", ".join(filter_descriptions) if filter_descriptions else ""
+
+        if not sift.sifts:
+            source = sift.context_source
+        else:
+            child_str = []
+            for child in sift.sifts:
+                child_str.append("(" + self.translate(child)+")")
+            source = " {}".format(" OR ".join(child_str) )
+            source = base_text + source
+            
+        return "{source} {filter_text}".format(base_text=base_text, source=source, filter_text=filter_text)
+
+    def __context_filter_description(self, filter):
+        return "{property} {operator} {comparison_value}".format(
+                property=filter["property"],
+                operator=filter["operator"],
+                comparison_value=filter.get("comparison_value", None))

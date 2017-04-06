@@ -1,24 +1,28 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 from siftpy._util.helpers import (merge, flatten,) 
-from siftpy._util.printers import SiftPrinter
-from siftpy._util.exceptions import ValidationException
+from siftpy._util.printers import SiftTranslator
+from siftpy._exceptions import ValidationException, FlowException
 from siftpy._choice import Choice
 from siftpy._reducer import Reducer
 from siftpy._context_extractor import ContextExtractor
 
 class Sift(object):    
 
-    def __init__(self, config):
+    def __init__(self, config, parent, context_provider, filter_provider):
         self.config = config
         self.__printer = self.config.SiftPrinter(self.config)
+        self.__translator = SiftTranslator(self.config)
         self.__context_extractor = ContextExtractor()
         self.__reducer = Reducer()
         self.__choice_results = None      
         self.__answered = False  
+        self.context_provider = context_provider
+        self.filter_provider = filter_provider
+        self.parent = parent
 
     def print(self):
         self.__printer.print(self)
-        print(Translator(self.config).translate(self))
+        print(self.__translator.translate(self))
 
     @property
     def is_choice(self):
@@ -44,7 +48,7 @@ class Sift(object):
 
     def __answer(self, results):
         if not self.is_choice:
-            raise Exception("You cannot 'answer' a result sift")
+            raise FlowException("You cannot 'answer' a result sift")
         self.__answered = True
         if self.aggregation_type == self.config.SiftAggregationType.ChooseElement:
             self.__choice_results = results
@@ -54,7 +58,6 @@ class Sift(object):
     def results(self):
         if self.__choice_results is not None:
             return self.__choice_results
-
         return self.__reducer.reduce(self.__branch_results, self.filters, self.returning_object_property)
 
     @property
@@ -74,31 +77,3 @@ class Sift(object):
     def __child_sift_results(self):
         return [sift.results() for sift in self.sifts]
 
-
-class Translator(object):
-
-    def __init__(self, config):
-        self.config = config
-
-    def translate(self, sift):
-        base_text = "Either" if sift.is_choice else "All items from"
-
-        filter_descriptions = [self.__context_filter_description(filter) for filter in sift.original_source[self.config.SiftPropertyKey.Filters]]
-        filter_text = "where " + ",".join(filter_descriptions) if filter_descriptions else ""
-
-        if not sift.sifts:
-            source = sift.context_source
-        else:
-            child_str = []
-            for child in sift.sifts:
-                child_str.append("(" + self.translate(child)+")")
-            source = " {}".format(" OR ".join(child_str) )
-            source = base_text + source
-            
-        return "{source} {filter_text}".format(base_text=base_text, source=source, filter_text=filter_text)
-
-    def __context_filter_description(self, filter):
-        return "{property} {operator} {comparison_value}".format(
-                property=filter["property"],
-                operator=filter["operator"],
-                comparison_value=filter["comparison_value"])

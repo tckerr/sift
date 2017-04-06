@@ -1,4 +1,4 @@
-from siftpy._util.exceptions import InvalidChoiceException
+from siftpy._exceptions import InvalidChoiceException
 
 class Question(object):
 

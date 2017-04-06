@@ -1,5 +1,22 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
-from siftpy._util.exceptions import ContextPropertyException
+from siftpy._exceptions import ContextPropertyException, ValidationException
+
+def intop(item, value, itemlist):
+    sort = sorted(itemlist, reverse=True)
+    return sort.index(item) < value
+
+def inbottom(item, value, itemlist):
+    sort = sorted(itemlist)
+    return sort.index(item) < value
+
+def aboveavg(item, value, itemlist):
+    if value is not None:
+        raise ValidationException("Relative filters based on average should have no comparison value.")
+    if not itemlist:
+        return False;
+    avg = sum(itemlist)/float(len(itemlist))
+    return item >= avg
+
 
 def merge(list_list):
     merged = [item for sublist in list_list for item in sublist]
@@ -13,7 +30,7 @@ def flatten(nested_list):
 
 
 def filter_list(filter_function, item_list):
-    results = filter(lambda x: filter_function(x), item_list)
+    results = filter(lambda x: filter_function(x, item_list), item_list)
     return list(results)
 
 

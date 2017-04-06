@@ -19,12 +19,17 @@
             "property": "salary_requirement",
             "operator": ">=",
             "comparison_value": 60000
+        },
+        {
+            "filter_type": "relative",
+            "property": "salary_requirement",
+            "operator": "above_avg"
         }
     ],
     "sifts": [
         {
             "id": 1,
-            "aggregation_type": "all",
+            "aggregation_type": "combine",
             "context_source": "candidates",
             "description": "High commission",
             "filters": [
@@ -38,7 +43,7 @@
         },
         {
             "id": 2,
-            "aggregation_type": "all",
+            "aggregation_type": "combine",
             "context_source": "candidates",
             "description": "Easy to work with",
             "filters": [

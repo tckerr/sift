@@ -4,3 +4,4 @@ class OperatorException(Exception): pass
 class ContextPropertyException(Exception): pass
 class InvalidChoiceException(Exception): pass
 class ValidationException(Exception): pass
+class FlowException(Exception): pass

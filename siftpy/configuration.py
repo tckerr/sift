@@ -5,6 +5,7 @@ from siftpy._util.printers import SiftPrinter
 class SiftFilterType(object):
     Evaluation = "evaluation"
     Context = "context"
+    Relative = "relative"
 
 class SiftFilterOperator(object):
     LessThan = "<"
@@ -13,6 +14,12 @@ class SiftFilterOperator(object):
     GreaterThanOrEqualTo = ">="
     GreaterThan = ">"
     NotEqualTo = "!="
+
+    #Relatives
+    InTopCount = "in_top"
+    InBottomCount = "in_bottom"
+    AboveAvg = "above_avg"
+    BelowAvg = "below_avg"
 
 class SiftFilterKey(object):
     Operator = "operator"
@@ -35,6 +42,16 @@ class SiftPropertyKey(object):
     Description = "description"
     AggregationType = "aggregation_type"
 
+class SiftPropertyDefaults(object): pass 
+setattr(SiftPropertyDefaults, SiftPropertyKey.Id, lambda: None)
+setattr(SiftPropertyDefaults, SiftPropertyKey.ReturningObjectProperty, lambda: None)
+setattr(SiftPropertyDefaults, SiftPropertyKey.Count, lambda: None)
+setattr(SiftPropertyDefaults, SiftPropertyKey.ContextSource, lambda: None)
+setattr(SiftPropertyDefaults, SiftPropertyKey.Filters, lambda: [])
+setattr(SiftPropertyDefaults, SiftPropertyKey.Sifts, lambda: [])
+setattr(SiftPropertyDefaults, SiftPropertyKey.Description, lambda: "")
+setattr(SiftPropertyDefaults, SiftPropertyKey.AggregationType, lambda: SiftAggregationType.Combine)
+
 class SiftFilterCacheKey(object):
     ForNone = "$.none"
 
@@ -47,6 +64,7 @@ class SiftConfiguration(object):
         self.SiftPropertyKey        = SiftPropertyKey
         self.SiftFilterCacheKey     = SiftFilterCacheKey
         self.SiftAggregationType    = SiftAggregationType
+        self.SiftPropertyDefaults   = SiftPropertyDefaults
 
         self.SiftPrinter            = SiftPrinter
 

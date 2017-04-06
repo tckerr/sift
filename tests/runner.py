@@ -45,6 +45,7 @@ def run_test():
     '''
     recruiter_requirements = get_recruiter_requirements()
     candidate_sift = builder.build(recruiter_requirements, context_provider)
+    candidate_sift.print()
     choice = candidate_sift.get_choice()
     print(choice.question)
     choice.choose(input())
