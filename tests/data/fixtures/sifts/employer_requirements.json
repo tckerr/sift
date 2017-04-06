@@ -1,0 +1,19 @@
+{
+    "id": 0,
+    "is_choice": false,
+    "context_source": "employers",
+    "filters": [
+        {
+            "filter_type": "context",
+            "property": "commission_pct",
+            "operator": ">=",
+            "comparison_value": "recruiter.min_commission"
+        },
+        {
+            "filter_type": "evaluation",
+            "property": "quantity",
+            "operator": ">",
+            "comparison_value": 0
+        }
+    ]
+}

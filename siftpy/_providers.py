@@ -79,13 +79,13 @@ class FilterProvider(object):
             if comparison_value is None or comparison_value.__class__ == DictWrapper:
                 # TODO: support None via a specific operator ???? 
                 raise ContextPropertyException("Value is None or not defined in context: {}".format(comparison_property_name) )
-            operand_property = getattr(operand, operand_property_name) if operand_property_name else operand
+            operand_property = getprop(operand, operand_property_name) if operand_property_name else operand
             return operator_function(operand_property, comparison_value)
         return fn 
 
     def __generate_evaluation(self, operator_function, operand_property_name, comparison_value):
         def fn(operand):
-            operand_property = getattr(operand, operand_property_name) if operand_property_name else operand
+            operand_property = getprop(operand, operand_property_name) if operand_property_name else operand
             return operator_function(operand_property, comparison_value)
         return fn
 

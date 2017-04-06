@@ -1,0 +1,3702 @@
+[
+  {
+    "name": "Verbus",
+    "commission_pct": 0.1,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 81496
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 15
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Newcube",
+    "commission_pct": 0.17,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 69692
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 16
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Prowaste",
+    "commission_pct": 0.08,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 63589
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Quinex",
+    "commission_pct": 0.1,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 107195
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 20
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Bisba",
+    "commission_pct": 0.11,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 73347
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 16
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Datagen",
+    "commission_pct": 0.06,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 108456
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 6
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Kneedles",
+    "commission_pct": 0.08,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 81162
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 19
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Emoltra",
+    "commission_pct": 0.13,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 93506
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 7
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Injoy",
+    "commission_pct": 0.14,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 77857
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 12
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Zillacom",
+    "commission_pct": 0.11,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 72690
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 19
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Gallaxia",
+    "commission_pct": 0.1,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 99783
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Aquasseur",
+    "commission_pct": 0.17,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 65928
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 10
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Isologica",
+    "commission_pct": 0.07,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 77583
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Centice",
+    "commission_pct": 0.17,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 102066
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Mediot",
+    "commission_pct": 0.2,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 90022
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Slambda",
+    "commission_pct": 0.15,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 82197
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 7
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Quarx",
+    "commission_pct": 0.06,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 73621
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 8
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Malathion",
+    "commission_pct": 0.1,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 105488
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 8
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Melbacor",
+    "commission_pct": 0.08,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 79480
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 16
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Edecine",
+    "commission_pct": 0.1,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 84175
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 15
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Sarasonic",
+    "commission_pct": 0.11,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 75423
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Vitricomp",
+    "commission_pct": 0.14,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 115077
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Plasto",
+    "commission_pct": 0.15,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 78488
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 13
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Viagreat",
+    "commission_pct": 0.2,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 81135
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 19
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Portico",
+    "commission_pct": 0.05,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 77607
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Rodeology",
+    "commission_pct": 0.18,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 88659
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 0
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Atgen",
+    "commission_pct": 0.19,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 89798
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 0
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Balooba",
+    "commission_pct": 0.18,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 119678
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 17
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Rotodyne",
+    "commission_pct": 0.15,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 60590
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 14
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Earthplex",
+    "commission_pct": 0.14,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 63472
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 12
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Enormo",
+    "commission_pct": 0.07,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 99424
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 10
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Dreamia",
+    "commission_pct": 0.07,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 89406
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Sustenza",
+    "commission_pct": 0.1,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 119614
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 6
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Pyramia",
+    "commission_pct": 0.2,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 107481
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Ezent",
+    "commission_pct": 0.05,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 68542
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Cincyr",
+    "commission_pct": 0.14,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 74412
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Netility",
+    "commission_pct": 0.09,
+    "quantity": 8,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 61468
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 9
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Opticall",
+    "commission_pct": 0.07,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 115524
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 13
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Collaire",
+    "commission_pct": 0.14,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 119822
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 13
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Cogentry",
+    "commission_pct": 0.08,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 94986
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 15
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Songlines",
+    "commission_pct": 0.06,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 61491
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 10
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Apextri",
+    "commission_pct": 0.06,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 112066
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 12
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Conjurica",
+    "commission_pct": 0.18,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 68804
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 7
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Delphide",
+    "commission_pct": 0.11,
+    "quantity": 8,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 113933
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Digique",
+    "commission_pct": 0.1,
+    "quantity": 8,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 103819
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 6
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Zilidium",
+    "commission_pct": 0.18,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 71645
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 17
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Xylar",
+    "commission_pct": 0.1,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 73607
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Quilm",
+    "commission_pct": 0.06,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 80724
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 10
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Recognia",
+    "commission_pct": 0.17,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 113358
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Soprano",
+    "commission_pct": 0.1,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 119238
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Waretel",
+    "commission_pct": 0.1,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 73376
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Megall",
+    "commission_pct": 0.11,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 68691
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Calcula",
+    "commission_pct": 0.13,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 111800
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 12
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Talendula",
+    "commission_pct": 0.19,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 87343
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Harmoney",
+    "commission_pct": 0.2,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 104442
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 14
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Chorizon",
+    "commission_pct": 0.13,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 69872
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 17
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Coriander",
+    "commission_pct": 0.06,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 73156
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 15
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Netropic",
+    "commission_pct": 0.18,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 99501
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Qimonk",
+    "commission_pct": 0.16,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 114347
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 0
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Kyagoro",
+    "commission_pct": 0.17,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 95481
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 13
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Portalis",
+    "commission_pct": 0.05,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 66837
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Musix",
+    "commission_pct": 0.14,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 71929
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 20
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Bitendrex",
+    "commission_pct": 0.14,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 89678
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 9
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Halap",
+    "commission_pct": 0.16,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 66653
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Exospace",
+    "commission_pct": 0.06,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 90395
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 17
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Handshake",
+    "commission_pct": 0.11,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 60503
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 7
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Comtrek",
+    "commission_pct": 0.14,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 100382
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 8
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Quotezart",
+    "commission_pct": 0.16,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 63744
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 7
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Typhonica",
+    "commission_pct": 0.14,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 81670
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 12
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Myopium",
+    "commission_pct": 0.12,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 86440
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 8
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Kengen",
+    "commission_pct": 0.19,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 82855
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 8
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Orbalix",
+    "commission_pct": 0.06,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 102626
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 15
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Comvex",
+    "commission_pct": 0.16,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 82495
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Lovepad",
+    "commission_pct": 0.18,
+    "quantity": 0,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 95848
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 7
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Interloo",
+    "commission_pct": 0.2,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 73264
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 14
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Nutralab",
+    "commission_pct": 0.17,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 92883
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 10
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Pigzart",
+    "commission_pct": 0.08,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 68776
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 13
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Ozean",
+    "commission_pct": 0.15,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 69663
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 20
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Quizmo",
+    "commission_pct": 0.12,
+    "quantity": 4,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 115137
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 15
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Realmo",
+    "commission_pct": 0.08,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 118091
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Amril",
+    "commission_pct": 0.06,
+    "quantity": 9,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 99740
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Zillanet",
+    "commission_pct": 0.16,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 96152
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Deepends",
+    "commission_pct": 0.17,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 101419
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Zilla",
+    "commission_pct": 0.15,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 100985
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Rubadub",
+    "commission_pct": 0.17,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 68146
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 16
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Biflex",
+    "commission_pct": 0.18,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 75051
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 0
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Eargo",
+    "commission_pct": 0.09,
+    "quantity": 6,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 100828
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 6
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Inrt",
+    "commission_pct": 0.09,
+    "quantity": 8,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 89484
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 9
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Circum",
+    "commission_pct": 0.2,
+    "quantity": 10,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 62894
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 13
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Techade",
+    "commission_pct": 0.05,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 115817
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 17
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  },
+  {
+    "name": "Amtap",
+    "commission_pct": 0.15,
+    "quantity": 1,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 112695
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 0
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Ewaves",
+    "commission_pct": 0.14,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 89845
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Kegular",
+    "commission_pct": 0.08,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 80581
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 18
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Pushcart",
+    "commission_pct": 0.2,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 87970
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Isopop",
+    "commission_pct": 0.1,
+    "quantity": 2,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 84539
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 3
+      }
+    ]
+  },
+  {
+    "name": "Vertide",
+    "commission_pct": 0.2,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 111992
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 6
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 3
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Syntac",
+    "commission_pct": 0.15,
+    "quantity": 8,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 76533
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.extraversion",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Securia",
+    "commission_pct": 0.19,
+    "quantity": 3,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 67385
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 5
+      }
+    ]
+  },
+  {
+    "name": "Lunchpad",
+    "commission_pct": 0.05,
+    "quantity": 7,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 112149
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 20
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.conscientiousness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 2
+      }
+    ]
+  },
+  {
+    "name": "Plasmosis",
+    "commission_pct": 0.14,
+    "quantity": 5,
+    "requirements": [
+      {
+        "filter_type": "evaluation",
+        "property": "salary_requirement",
+        "operator": "<",
+        "comparison_value": 90912
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "years_experience",
+        "operator": ">=",
+        "comparison_value": 1
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 2
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.agreeableness",
+        "operator": ">=",
+        "comparison_value": 4
+      },
+      {
+        "filter_type": "evaluation",
+        "property": "personality.openness",
+        "operator": ">=",
+        "comparison_value": 4
+      }
+    ]
+  }
+]

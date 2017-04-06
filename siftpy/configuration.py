@@ -20,14 +20,20 @@ class SiftFilterKey(object):
     ComparisonValue = "comparison_value"
     FilterType = "filter_type"
 
+class SiftAggregationType(object):
+    Combine = "combine"
+    ChooseSource = "choose_source"
+    ChooseElement = "choose_element"
+
 class SiftPropertyKey(object):
     Id = "id"
-    IsChoice = "is_choice"
     ReturningObjectProperty = "returning_object_property"
     Count = "count"
     ContextSource = "context_source"
     Filters = "filters"
     Sifts = "sifts"
+    Description = "description"
+    AggregationType = "aggregation_type"
 
 class SiftFilterCacheKey(object):
     ForNone = "$.none"
@@ -40,6 +46,7 @@ class SiftConfiguration(object):
         self.SiftFilterKey          = SiftFilterKey
         self.SiftPropertyKey        = SiftPropertyKey
         self.SiftFilterCacheKey     = SiftFilterCacheKey
+        self.SiftAggregationType    = SiftAggregationType
 
         self.SiftPrinter            = SiftPrinter
 

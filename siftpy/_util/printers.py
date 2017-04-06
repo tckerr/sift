@@ -8,7 +8,7 @@ class SiftPrinter(object):
         self.config = config
         self.fields = (
             self.config.SiftPropertyKey.Id,
-            self.config.SiftPropertyKey.IsChoice,
+            self.config.SiftPropertyKey.AggregationType,
             self.config.SiftPropertyKey.ReturningObjectProperty,
             self.config.SiftPropertyKey.Count
         )
@@ -27,10 +27,10 @@ class SiftPrinter(object):
         for field in self.fields:  
             text += self.__print_field_with_padding(sift, pad_str, field) + "\n"
 
-        text += "{}{}: {}\n".format(pad_str, self.config.SiftPropertyKey.ContextSource, sift.source.get(self.config.SiftPropertyKey.ContextSource, "None"))
+        text += "{}{}: {}\n".format(pad_str, self.config.SiftPropertyKey.ContextSource, sift.original_source.get(self.config.SiftPropertyKey.ContextSource, "None"))
 
 
-        filters_str = ",  Dynamic: [" + str([ f for f in sift.source[self.config.SiftPropertyKey.Filters]]) + "]"
+        filters_str = ",  Dynamic: [" + str([ f for f in sift.original_source[self.config.SiftPropertyKey.Filters]]) + "]"
         text += "{}{}: {}\n".format(pad_str, self.config.SiftPropertyKey.Filters, filters_str)
 
         for sift in sift.sifts:

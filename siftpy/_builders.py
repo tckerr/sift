@@ -18,23 +18,27 @@ class SiftBuilder(object):
         return sift
 
     def __init_fields(self, dictionary, context_provider, filter_provider, sift):
-        self.__init_source(dictionary, sift)
+        self.__init_original_source(dictionary, sift)
         self.__init_id(dictionary, sift)
-        self.__init_is_choice(dictionary, sift)
+        self.__init_description(dictionary, sift)
         self.__init_context_source(dictionary, sift)
         self.__init_returning_object_property( dictionary, sift)
         self.__init_count(dictionary, sift)
         self.__init_filters(dictionary, sift, filter_provider, context_provider)
+        self.__init_aggregation_type(dictionary, sift)
         self.__init_sifts(dictionary, sift, context_provider, filter_provider)
 
-    def __init_source(self, dictionary, sift):
-        sift.source = dictionary
+    def __init_original_source(self, dictionary, sift):
+        sift.original_source = dictionary
 
     def __init_id(self, dictionary, sift):
         sift.id = dictionary.get(self.config.SiftPropertyKey.Id, None)
 
-    def __init_is_choice(self, dictionary, sift):
-        sift.is_choice = dictionary[self.config.SiftPropertyKey.IsChoice]
+    def __init_aggregation_type(self, dictionary, sift):        
+        sift.aggregation_type = dictionary.get(self.config.SiftPropertyKey.AggregationType)
+
+    def __init_description(self, dictionary, sift):
+        sift.description = dictionary.get(self.config.SiftPropertyKey.Description, "")
 
     def __init_context_source(self, dictionary, sift):
         sift.context_source = dictionary.get(self.config.SiftPropertyKey.ContextSource, None)

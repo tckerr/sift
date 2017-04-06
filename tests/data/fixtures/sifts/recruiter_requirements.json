@@ -1,0 +1,60 @@
+{
+    "id": 0,
+    "aggregation_type": "choose_source",
+    "filters": [
+        {
+            "filter_type": "evaluation",
+            "property": "is_looking",
+            "operator": "==",
+            "comparison_value": true
+        },
+        {
+            "filter_type": "evaluation",
+            "property": "years_experience",
+            "operator": ">=",
+            "comparison_value": 2
+        },
+        {
+            "filter_type": "evaluation",
+            "property": "salary_requirement",
+            "operator": ">=",
+            "comparison_value": 60000
+        }
+    ],
+    "sifts": [
+        {
+            "id": 1,
+            "aggregation_type": "all",
+            "context_source": "candidates",
+            "description": "High commission",
+            "filters": [
+                {
+                    "filter_type": "evaluation",
+                    "property": "salary_requirement",
+                    "operator": ">=",
+                    "comparison_value": 90000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "aggregation_type": "all",
+            "context_source": "candidates",
+            "description": "Easy to work with",
+            "filters": [
+                {
+                    "filter_type": "evaluation",
+                    "property": "personality.agreeableness",
+                    "operator": ">=",
+                    "comparison_value": 4
+                },
+                {
+                    "filter_type": "evaluation",
+                    "property": "personality.conscientiousness",
+                    "operator": ">=",
+                    "comparison_value": 4
+                }
+            ]
+        }
+    ]
+}
