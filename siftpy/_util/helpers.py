@@ -1,5 +1,5 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
-from siftpy._exceptions import ContextPropertyException, ValidationException
+from siftpy._exceptions import PropertyDoesNotExistException, ValidationException
 
 def intop(item, value, itemlist):
     sort = sorted(itemlist, reverse=True)
@@ -40,8 +40,8 @@ def getprop(obj, str_accessor):
         for prop in props:
             obj = getattr(obj, prop)
         return obj
-    except:
-        raise ContextPropertyException("A context value did not exist. Check your context provider and your filters. Key error: {}".format(str_accessor))
+    except Exception as e:
+        raise PropertyDoesNotExistException("A property value did not exist. Check your objects, context provider, or filters. Key error: {}. Original access exception: {}".format(str_accessor, str(e)))
 
 
 class DictWrapper(dict):

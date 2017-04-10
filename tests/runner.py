@@ -24,6 +24,10 @@ def get_employer_requirements():
     requirements_json_path = os.path.dirname(__file__) + '/data/fixtures/sifts/employer_requirements.json'   
     return JsonLoader().load(requirements_json_path)
 
+def get_operation_test_sift():
+    data = os.path.dirname(__file__) + '/data/fixtures/sifts/operation_test.json'   
+    return JsonLoader().load(data)
+
 def candidate_sift():
     context_provider = generate_context()
     builder = SiftBuilder()
@@ -92,3 +96,13 @@ def run_test():
         context_provider.context.eligible_candidates = [c for c in context_provider.context.eligible_candidates if c not in placed]
 
     print("Done! Placed {} candidates for total earnings of: {}".format(str(len(placed)), print_dollars(earnings)))
+
+    # now let's test operations
+    operation_data = get_operation_test_sift()
+    operation_sift = builder.build(operation_data, generate_context())
+    operation_sift.print()
+    choice = operation_sift.get_choice()
+    print(choice.question)
+    choice.choose(input())
+    count = operation_sift.results()[0]
+    print("Done counting, {} results in total.".format(str(count)))

@@ -14,6 +14,8 @@ class SiftFilterOperator(object):
     GreaterThanOrEqualTo = ">="
     GreaterThan = ">"
     NotEqualTo = "!="
+    IsNone = "is_none"
+    IsNotNone = "is_notnone"
 
     #Relatives
     InTopCount = "in_top"
@@ -31,6 +33,7 @@ class SiftAggregationType(object):
     Combine = "combine"
     ChooseSource = "choose_source"
     ChooseElement = "choose_element"
+    Operation = "operation"
 
 class SiftPropertyKey(object):
     Id = "id"

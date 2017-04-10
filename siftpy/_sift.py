@@ -13,10 +13,10 @@ class Sift(object):
         self.__printer = self.config.SiftPrinter(self.config)
         self.__translator = SiftTranslator(self.config)
         self.__context_extractor = ContextExtractor()
-        self.__reducer = Reducer()
+        self.context_provider = context_provider
+        self.__reducer = Reducer(self.context_provider)
         self.__choice_results = None      
         self.__answered = False  
-        self.context_provider = context_provider
         self.filter_provider = filter_provider
         self.parent = parent
 
@@ -29,7 +29,6 @@ class Sift(object):
         return self.aggregation_type in (
             self.config.SiftAggregationType.ChooseSource,
             self.config.SiftAggregationType.ChooseElement,)
-
 
     def get_choice(self):
         for sift in self.sifts:
@@ -58,7 +57,8 @@ class Sift(object):
     def results(self):
         if self.__choice_results is not None:
             return self.__choice_results
-        return self.__reducer.reduce(self.__branch_results, self.filters, self.returning_object_property)
+        as_operation = self.aggregation_type == self.config.SiftAggregationType.Operation
+        return self.__reducer.reduce(self.__branch_results, self.filters, as_operation, self.returning_object_property)
 
     @property
     def __branch_results(self):

@@ -12,5 +12,5 @@ class SiftValidator(object):
             raise ValidationException("Either '{}' or '{}' may defined in a sift, but not both.".format(self.config.SiftPropertyKey.Sifts, self.config.SiftPropertyKey.ContextSource))
 
         if self.config.SiftPropertyKey.AggregationType in data and data[self.config.SiftPropertyKey.AggregationType] not in (
-            [getattr(self.config.SiftAggregationType, key) for key in ("Combine", "ChooseSource", "ChooseElement",)]):
+            [getattr(self.config.SiftAggregationType, key) for key in ("Combine", "ChooseSource", "ChooseElement", "Operation")]):
             raise ValidationException("'{}' is not a valid value for field '{}'.".format(data[self.config.SiftPropertyKey.AggregationType], self.config.SiftPropertyKey.AggregationType))

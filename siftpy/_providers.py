@@ -2,7 +2,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 from abc import abstractmethod, ABCMeta
 from siftpy._util.helpers import getprop, DictWrapper, intop, inbottom, aboveavg
-from siftpy._exceptions import OperatorException, ContextPropertyException
+from siftpy._exceptions import OperatorException, OperationException, ContextPropertyException, ValidationException
 
 class ContextProvider(object):
     __metaclass__ = ABCMeta
@@ -12,10 +12,16 @@ class ContextProvider(object):
 
     @abstractmethod
     def resolve_operator(self, operator_str):
-        raise OperatorException(("A sift filter received an non-standard operator, \"{}\", " +\
+        raise OperatorException(("A sift filter received a non-standard operator, \"{}\", " +\
                                  "yet resolve_operator has not been defined. " +\
                                  "Please override resolve_operator in your context "+\
                                  "provider.").format(operator_str))
+    @abstractmethod
+    def resolve_operation(self, operation_str):
+        raise OperationException(("A sift result attempted conversion via a non-standard operation, \"{}\", " +\
+                                 "yet resolve_operation has not been defined. " +\
+                                 "Please override resolve_operation in your context "+\
+                                 "provider.").format(operation_str))
 
 class FilterProvider(object):
     
@@ -59,6 +65,8 @@ class FilterProvider(object):
             fn = self.__generate_evaluation(operator_function, operand_property_name, comparison_value)
         elif filter_type == self.config.SiftFilterType.Relative:
             fn = self.__generate_relative_comparitor(operator_function, operand_property_name, comparison_value)
+        else:
+            raise ValidationException("Invald filter_type: {}".format(filter_type))
 
         if self.config.CacheFilterFunctions:
             self.__cache_fn(fn, *cache_args)
@@ -83,7 +91,7 @@ class FilterProvider(object):
     def __generate_context_comparitor(self, operator_function, operand_property_name, comparison_property_name, context_provider):
         def fn(operand, all_items):
             comparison_value = getprop(context_provider.context, comparison_property_name)
-            if comparison_value is None or comparison_value.__class__ == DictWrapper:
+            if comparison_value.__class__ == DictWrapper:
                 # TODO: support None via a specific operator ???? 
                 raise ContextPropertyException("Value is None or not defined in context: {}".format(comparison_property_name) )
             operand_property = getprop(operand, operand_property_name) if operand_property_name else operand
